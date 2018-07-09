@@ -110,5 +110,6 @@ section:before {
     min-height: 100%;
     min-width: 100%;
     top: 0px;
+    left: 0px;
 }
 </style>

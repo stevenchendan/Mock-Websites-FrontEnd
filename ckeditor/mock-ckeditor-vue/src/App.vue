@@ -1,16 +1,18 @@
 <template>
   <div id="app">
+    <NavigationBar></NavigationBar>
     <HomePage msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
 import HomePage from './components/HomePage.vue'
-
+import NavigationBar from './components/NavigationBar'
 export default {
   name: 'app',
   components: {
-    HomePage
+    HomePage,
+    NavigationBar
   }
 }
 </script>
