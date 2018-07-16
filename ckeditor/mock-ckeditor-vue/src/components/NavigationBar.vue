@@ -1,18 +1,18 @@
 <template>
-<div class="menu">
-  <div class="navigation-bar">
-    <h1>
-      <a class="hyperlink" href="/">Navigation Bar</a>
-    </h1>
+  <div class="menu">
+    <div class="navigation-bar">
+      <h1>
+        <a class="hyperlink" href="/">Navigation Bar</a>
+      </h1>
+    </div>
+    <div class="buger-bar">
+      <button class="bar-button">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>  
+    </div>
   </div>
-  <div class="buger-bar">
-    <button class="bar-button">
-      <span class="bar" aria-hidden="true"></span>
-      <span class="bar" aria-hidden="true"></span>
-      <span class="bar" aria-hidden="true"></span>
-    </button>  
-  </div>
-</div>
 </template>
 
 <script>
@@ -57,16 +57,16 @@ a:hover {
   text-decoration: underline;
 }
 .bar-button {
-    position: absolute;
-    left: 1.5rem;
-    height: 39px;
-    width: 40px;
-    padding: 0;
-    transform: translateY(-50%);
-    cursor: pointer;
-    background-color: inherit;
-    border: 0;
-    transition: transform .2s ease-in-out;
+  position: absolute;
+  left: 1.5rem;
+  height: 39px;
+  width: 40px;
+  padding: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: inherit;
+  border: 0;
+  transition: transform .2s ease-in-out;
 }
 .buger-bar {
   position: absolute;

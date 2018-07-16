@@ -1,10 +1,10 @@
 <template>
 <section>
-  <video class="video" 
+  <video class="home-page-video" 
     muted="" autoplay="" loop="" 
     data-src="../assets/video/home-bg.mp4" 
     src="../assets/video/home-bg.mp4"></video>
-  <div class="title">
+  <div class="home-page-title">
     <h1>Steven Mock ckeditor</h1>
     <h2>
       I like the design of the front page. I use vue framework to
@@ -58,12 +58,12 @@ h1 {
 h2 {
   font-size: 3.5rem;
   font-weight: 200;
-  line-height: 3rem;
+  line-height: 4rem;
   margin-top: 0;
   width: 880px;
   margin: 1.25rem auto 0;
 }
-.title {
+.home-page-title {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -103,7 +103,7 @@ section:before {
     transform: translateX(-50%);
     transition: opacity .2s ease-in-out;
 }
-.video {
+.home-page-video {
     display: block;
     position: absolute;
     /* opacity: 0; */

@@ -7,12 +7,14 @@
 
 <script>
 import HomePage from './components/HomePage.vue'
-import NavigationBar from './components/NavigationBar'
+import NavigationBar from './components/NavigationBar.vue'
+import ProductionPage from './components/ProductionPage.vue'
 export default {
   name: 'app',
   components: {
     HomePage,
-    NavigationBar
+    NavigationBar,
+    ProductionPage
   }
 }
 </script>
