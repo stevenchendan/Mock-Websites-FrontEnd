@@ -2,6 +2,7 @@
   <div id="app">
     <NavigationBar></NavigationBar>
     <HomePage msg="Welcome to Your Vue.js App"/>
+    <ProductionPage></ProductionPage>
   </div>
 </template>
 
