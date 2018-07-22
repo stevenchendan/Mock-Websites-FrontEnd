@@ -112,4 +112,7 @@ section:before {
     top: 0px;
     left: 0px;
 }
+.home-page-video::after {
+  background-image: url(../assets/images/home/video-mask.svg);
+}
 </style>
