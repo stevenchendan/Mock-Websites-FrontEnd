@@ -35,5 +35,10 @@ export default {
 .production-section {
   position: relative;
   margin-top: 100vh;
+  
+}
+
+.production-editor-5::after {
+    background-image: url(../assets/images/product/icon-ckeditor-5.svg);
 }
 </style>
