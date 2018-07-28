@@ -2,7 +2,7 @@
   <section class="production-section">
     <div class="production-card production-editor-5">
       <h3>Editor 5</h3>
-      <p>Lorem ipsum dolor sit amet, mei quas sententiae ut. 
+      <p >Lorem ipsum dolor sit amet, mei quas sententiae ut. 
         Vel exerci possim deleniti ad. Ex nam</p>
         <a class="" href="">
         Learn more</a>
@@ -55,7 +55,14 @@ export default {
   border-radius: 4px;
   transition: all .2s ease-in-out;
   margin-right: 5%;
+  width: 330px;
 }
+
+.production-card p {
+  font-size: 2rem;
+  max-width: 100%;
+}
+
 .production-card::after {
     content: '';
     position: absolute;
@@ -83,4 +90,11 @@ export default {
 .production-cloud-service::after {
     background-image: url(../assets/images/product/icon-cloud.svg);
 }
+h3 {
+  padding-top: 20vh;
+  font-size: 3rem;
+}
+
+
+
 </style>
