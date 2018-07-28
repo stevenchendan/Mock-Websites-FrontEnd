@@ -54,6 +54,7 @@ export default {
   overflow: hidden;
   border-radius: 4px;
   transition: all .2s ease-in-out;
+  margin-right: 5%;
 }
 .production-card::after {
     content: '';
@@ -68,6 +69,10 @@ export default {
     background-position: center top;
     transform: translate3d(-50%,0,0);
     z-index: 3;
+}
+.production-editor-5 {
+
+  margin-left: 19%;
 }
 .production-editor-5::after {
     background-image: url(../assets/images/product/icon-ckeditor-5.svg);
