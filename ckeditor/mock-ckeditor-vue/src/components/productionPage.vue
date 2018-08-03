@@ -50,7 +50,6 @@ export default {
 .production-card {
   position: relative;
   text-align: center;
-  overflow: hidden;
   border-radius: 4px;
   transition: all .2s ease-in-out;
   margin-right: 5%;
