@@ -94,13 +94,13 @@ h3 {
   font-size: 3rem;
 }
 .learn-more {
-      border-color: #979797;
+    border-color: #979797;
     color: rgba(5,22,42,.87);
-        background-color: #fff;
+    background-color: #fff;
     border: 2px solid #979797;
-        border-width: 1px;
-            min-width: 17.5rem;
-                padding: 10px 20px;
+    border-width: 1px;
+    min-width: 17.5rem;
+    padding: 10px 20px;
     font-size: 1.6rem;
     min-height: 10vh
 }
