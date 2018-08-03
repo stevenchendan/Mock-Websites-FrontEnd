@@ -4,23 +4,21 @@
       <h3>Editor 5</h3>
       <p >Lorem ipsum dolor sit amet, mei quas sententiae ut. 
         Vel exerci possim deleniti ad. Ex nam</p>
-        <a class="" href="">
-        Learn more</a>
+        <span class="learn-more" href="">
+        Learn more</span>
     </div>
     <div class="production-card production-editor-4">
       <h3>Editor 4</h3>
       <p>Lorem ipsum dolor sit amet, mei quas sententiae ut. 
         Vel exerci possim deleniti ad. Ex nam</p>
-        <a class="" href="">
-        Learn more</a>
+        <span class="learn-more" href="">
+        Learn more</span>
     </div>
     <div class="production-card production-cloud-service">
-      <a class="" href="">
         <h3>Editor Cloud Service</h3>
         <p>Lorem ipsum dolor sit amet, mei quas sententiae ut. 
           Vel exerci possim deleniti ad. Ex nam</p>
-        <span class="btn">Learn more</span>
-      </a>
+        <span class="learn-more">Learn more</span>
     </div>
   </section>
 </template>
@@ -39,8 +37,9 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  height: 30vh;
+  height: 35vh;
   max-width: none;
+  margin-bottom: 10%;
 }
 .btn {
   color: #fff;
@@ -93,6 +92,17 @@ export default {
 h3 {
   padding-top: 20vh;
   font-size: 3rem;
+}
+.learn-more {
+      border-color: #979797;
+    color: rgba(5,22,42,.87);
+        background-color: #fff;
+    border: 2px solid #979797;
+        border-width: 1px;
+            min-width: 17.5rem;
+                padding: 10px 20px;
+    font-size: 1.6rem;
+    min-height: 10vh
 }
 
 
