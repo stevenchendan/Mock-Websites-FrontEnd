@@ -4,21 +4,21 @@
       <h3>Editor 5</h3>
       <p >Lorem ipsum dolor sit amet, mei quas sententiae ut. 
         Vel exerci possim deleniti ad. Ex nam</p>
-        <span class="learn-more" href="">
+        <span class="learn-more btn" href="">
         Learn more</span>
     </div>
     <div class="production-card production-editor-4">
       <h3>Editor 4</h3>
       <p>Lorem ipsum dolor sit amet, mei quas sententiae ut. 
         Vel exerci possim deleniti ad. Ex nam</p>
-        <span class="learn-more" href="">
+        <span class="learn-more btn" href="">
         Learn more</span>
     </div>
     <div class="production-card production-cloud-service">
         <h3>Editor Cloud Service</h3>
         <p>Lorem ipsum dolor sit amet, mei quas sententiae ut. 
           Vel exerci possim deleniti ad. Ex nam</p>
-        <span class="learn-more">Learn more</span>
+        <span class="learn-more btn">Learn more</span>
     </div>
   </section>
 </template>
@@ -43,8 +43,10 @@ export default {
 }
 .btn {
   color: #fff;
-  border-color: #2e9fff;
-  background-color: #2e9fff;
+  border-width: 1px;
+  background-color: #fff;
+  border: 2px solid #979797;
+  border-radius: 4px;
 }
 
 .production-card {
@@ -55,6 +57,12 @@ export default {
   margin-right: 5%;
   width: 330px;
 }
+
+.production-card:hover {
+    box-shadow: 1px 8px 20px grey;
+    -webkit-transition:  box-shadow .6s ease-in;
+}
+
 
 .production-card p {
   font-size: 2rem;
@@ -99,11 +107,16 @@ h3 {
     border: 2px solid #979797;
     border-width: 1px;
     min-width: 17.5rem;
-    padding: 10px 20px;
+    padding: 10px 50px;
     font-size: 1.6rem;
-    min-height: 10vh
+    min-height: 10vh;
 }
 
-
+.btn:hover {
+    background-color: #007ac9 !important;
+    border: 2px solid #007ac9 !important;
+    cursor: pointer;
+    
+}
 
 </style>
