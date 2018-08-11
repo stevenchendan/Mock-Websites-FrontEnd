@@ -11,14 +11,20 @@
       mock the design of this website.
     </h2>
   </div>
-  <span class="scroll-down-icon">
+  <!-- <span class="scroll-down-icon">
     <svg width="34" height="57">
       <g fill="none" fill-rule="evenodd">
         <rect stroke="#000" stroke-width="2" x="1" y="1" width="32" height="54.667" rx="15"></rect>
         <circle id="mouse-scroll" fill="#000" cx="17" cy="14.481" r="3.148"></circle>
       </g>
     </svg>
-  </span>
+  </span> -->
+  <div class="scroll-downs">
+  <div class="mousey">
+    <div class="scroller"></div>
+  </div>
+</div>
+
 </section>
   
 </template>
@@ -114,5 +120,47 @@ section:before {
 }
 .home-page-video::after {
   background-image: url(../assets/images/home/video-mask.svg);
+}
+body,html  {
+  background-color: #000;
+  width: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.scroll-downs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  top: 84vh;
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 5px;
+  border-radius: 25%;
+  background-color:black;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
 }
 </style>
